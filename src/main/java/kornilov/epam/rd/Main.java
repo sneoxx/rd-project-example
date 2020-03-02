@@ -1,4 +1,4 @@
-package love.korni.epam.rd;
+package kornilov.epam.rd;
 
 /**
  * Main class
