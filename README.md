@@ -30,6 +30,7 @@
 3. Пишите код и пушите его в новую ветку.
 4. Далее на github делаете pull-request из ветки **lesson1-task1** в ветку **lesson1**. [Инструкция](https://help.github.com/en/desktop/contributing-to-projects/creating-a-pull-request "Инструкция")
 5. Асайните этот pull-requst на преподавателя. [Инструкция](https://help.github.com/en/github/managing-your-work-on-github/assigning-issues-and-pull-requests-to-other-github-users "Инструкция") 
+    1. Желательно скинуть ссылку на pull-request нам в общий чат.
 6. Ждёте проверки выполнения.
     1. Если успешно, то вы молодец и приступатее к выполнению нового задания с шага 1. 
         1. Преподаватель смержит ваше выполнение в репозиторий. (Не делайте этого сами)
