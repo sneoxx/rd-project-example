@@ -1,11 +1,10 @@
-name: build
+name: Java CI/CD build
 
 on:
   push:
     branches:
       - master
-      - dev
-      - testing
+      - develop
   pull_request:
 
 jobs:
@@ -17,16 +16,17 @@ jobs:
     name: Java ${{ matrix.java }} compile
     steps:
       - uses: actions/checkout@master
-      - name: Setup java
+      - name: Clean and compile
         uses: actions/setup-java@v1
         with:
           java-version: ${{ matrix.java }}
       - run: mvn -f pom.xml clean compile
   build:
     runs-on: ubuntu-latest
+    name: Java ${{ matrix.java }} test
     steps:
       - uses: actions/checkout@v1
-      - name: Set up JDK 11
+      - name: Test
         uses: actions/setup-java@v1
         with:
           java-version: 11
