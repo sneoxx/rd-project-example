@@ -21,7 +21,7 @@
 
 ### Workflow сдачи заданий
 
-Для начала необходимо добавить всех преподавателей в коллабораторы вашего проекта. [Инструкция.](https://help.github.jp/enterprise/2.11/user/articles/inviting-collaborators-to-a-personal-repository/ "Инструкция")
+Для начала необходимо добавить всех преподавателей в коллабораторы вашего проекта. [Инструкция.](https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/inviting-collaborators-to-a-personal-repository "Инструкция")
 Если слабо владеете git, пройдите начальные уроки [здесь](https://learngitbranching.js.org/ "здесь").
 
 Во время выполнения заданий проходите следующие шаги:
