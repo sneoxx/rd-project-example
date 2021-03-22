@@ -12,6 +12,9 @@
 			* file.txt 
 	* test
 		* java
+			* *фамилия*
+				* *ваши пакеты*
+					* MainTest.class
 * .gitignore
 * pom.xml
 
