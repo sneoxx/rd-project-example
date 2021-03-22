@@ -7,7 +7,9 @@
 		* java
 			* *фамилия*
 				* *ваши пакеты*
+					* Main.class
 		* resources
+			* file.txt 
 	* test
 		* java
 * .gitignore
