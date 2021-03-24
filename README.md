@@ -7,14 +7,14 @@
 		* java
 			* *фамилия*
 				* *ваши пакеты*
-					* Main.class
+					* Main.java
 		* resources
 			* file.txt 
 	* test
 		* java
 			* *фамилия*
 				* *ваши пакеты*
-					* MainTest.class
+					* MainTest.java
 * .gitignore
 * pom.xml
 
