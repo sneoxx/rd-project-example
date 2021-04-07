@@ -1,4 +1,4 @@
-package kornilov.epam.rd;
+package com.epam.rd;
 
 public class Main {
 
