@@ -9,7 +9,7 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <jacoco-maven-plugin.haltOnFailure>false</jacoco-maven-plugin.haltOnFailure>
+        <jacoco-maven-plugin.haltOnFailure>true</jacoco-maven-plugin.haltOnFailure>
     </properties>
 
     <build>
@@ -79,9 +79,9 @@
 
     <profiles>
         <profile>
-            <id>test-coverage</id>
+            <id>off-test-coverage</id>
             <properties>
-                <jacoco-maven-plugin.haltOnFailure>true</jacoco-maven-plugin.haltOnFailure>
+                <jacoco-maven-plugin.haltOnFailure>false</jacoco-maven-plugin.haltOnFailure>
             </properties>
         </profile>
     </profiles>
